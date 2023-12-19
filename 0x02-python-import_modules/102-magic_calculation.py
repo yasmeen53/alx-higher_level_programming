@@ -1,10 +1,9 @@
 c_calculation(a, b):
     from magic_calculation_102 import add, sub
     if a < b:
-        sum = add(a, b)
-        for i in range(4, 6):
-            sum = add(sum, i)
-        return sum
+        c = add(a, b)
+        for n in range(4, 6):
+            c = add(c, n)
+        return c
     else:
         return sub(a, b)
-
